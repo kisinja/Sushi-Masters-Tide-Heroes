@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: rgb(109, 128, 0);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Optional border */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    backdrop-filter: blur(10px) saturate(150%);
+    /* Glass effect */
+    -webkit-backdrop-filter: blur(10px) saturate(150%);
+    /* Support for Safari */
+}
+
+img {
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+}
+
+.hero-text {
+    background: #00000075;
+}
+
+#hero-section {
+    background: url(https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHN1c2hpJTIwcmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D);
+    width: 100%;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-img {
+    height: 200px;
+}
+
+#about-section {
+    background: #fafafa;
+}
+
+#contact-section {
+    background: url(https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGNhbGxpbmclMjBhJTIwcmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
